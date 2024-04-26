@@ -1,5 +1,6 @@
 import { Container } from "@chakra-ui/react"
-import QrCodeGenerator from "./qr-code-generator/QrCodeGenerator"
+import LightDarkMode from "./light-dark-mode/LightDarkMode"
+// import QrCodeGenerator from "./qr-code-generator/QrCodeGenerator"
 
 function App() {
 
@@ -9,7 +10,10 @@ function App() {
       <Container
         maxW={'6xl'}
       >
-        <QrCodeGenerator/>
+        {/* QR Code Generator */}
+        {/* <QrCodeGenerator/> */}
+        {/* Light Dark Mode */}
+      <LightDarkMode/>
       </Container>
     </>
   )
