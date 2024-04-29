@@ -1,20 +1,21 @@
-import { Container } from "@chakra-ui/react"
-import LightDarkMode from "./light-dark-mode/LightDarkMode"
+
+// import LightDarkMode from "./light-dark-mode/LightDarkMode"
 // import QrCodeGenerator from "./qr-code-generator/QrCodeGenerator"
+// import Playaround from './Playaround'
+import ScrollIndicator from "./scroll-indicator/ScrollIndicator"
 
 function App() {
 
 
   return (
     <>
-      <Container
-        maxW={'6xl'}
-      >
+   
         {/* QR Code Generator */}
         {/* <QrCodeGenerator/> */}
         {/* Light Dark Mode */}
-      <LightDarkMode/>
-      </Container>
+      {/* <LightDarkMode/> */}
+      <ScrollIndicator/>
+
     </>
   )
 }
